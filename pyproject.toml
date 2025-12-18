@@ -1,0 +1,13 @@
+[project]
+name = "webaitoapi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "drissionpage>=4.1.1.2",
+    "fastapi>=0.125.0",
+    "json-repair>=0.54.3",
+    "requests>=2.32.5",
+    "uvicorn>=0.38.0",
+]

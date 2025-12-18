@@ -47,6 +47,31 @@ Designed specifically for **personal users** and **academic research**, this pro
 * **Flexible & Lightweight**: Suitable for personal experimental scenarios that do not require high concurrency.
 * **Standardized API**: Provides an OpenAI-like interface format, making it easy to integrate into existing workflows.
 
+### 🛠️ Installation
+
+We recommend using [uv](https://github.com/astral-sh/uv) for ultra-fast environment management, though standard `pip` installation is also supported.
+
+#### Prerequisites
+* Python 3.12+
+* Google Chrome Browser (Required by DrissionPage)
+
+#### Clone and Install Dependencies
+```bash
+git clone https://github.com/YangLuoNou/WebAItoAPI.git
+cd WebAItoAPI
+
+# uv automatically creates the virtual environment and installs all dependencies
+uv sync
+```
+#### Activate Environment and Run
+```bash
+# Activate the virtual environment (Windows)
+.venv/Scripts/activate
+
+# Run the script
+python main.py
+```
+
 ### ⚙️ Configuration
 This project manages configuration via `config.json`. Upon the first run, the system will automatically generate a default `config.json` file in the root directory. You can modify the following fields as needed:
 

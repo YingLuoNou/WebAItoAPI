@@ -43,6 +43,28 @@
 * **灵活轻量**：适合无需高并发的个人实验场景。
 * **API 标准化**：提供类 OpenAI 的接口格式，易于集成到现有工作流中。
 
+### 🛠️ 安装环境
+
+本项目推荐使用 [uv](https://github.com/astral-sh/uv) 进行极速环境管理，同时也支持标准的 pip 安装。
+
+#### 前置要求
+* Python 3.12+
+* Google Chrome 浏览器 (DrissionPage 需要)
+#### 克隆项目并安装环境
+```bash
+git clone https://github.com/YangLuoNou/WebAItoAPI.git
+cd WebAItoAPI
+
+# uv 会自动创建虚拟环境并安装所有依赖
+uv sync
+```
+#### 进入虚拟环境并启动脚本
+```bash
+.venv/Scripts/activate
+python main.py
+```
+
+
 ### ⚙️ 配置说明
 本项目采用 `config.json` 进行配置管理。首次运行程序时，系统会自动在根目录下生成默认的 `config.json` 文件。您可以根据需求修改以下字段：
 
