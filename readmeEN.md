@@ -34,7 +34,7 @@ This project is licensed under the **[CC BY-NC-SA 4.0](https://creativecommons.o
 
 ---
 
-## 🇺🇸 English Version
+## English Version
 
 ### Project Introduction
 **WebAItoAPI** is a lightweight Python middleware that utilizes **DrissionPage** automation technology to encapsulate the web version of AI (currently supporting Google Gemini) into a standard API interface, serving it via **FastAPI**.
