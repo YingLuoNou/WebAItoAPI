@@ -29,6 +29,10 @@ DEFAULT_CONFIG = {
     # Port to run the Chromium browser debugger
     # 运行 Chromium 浏览器调试器的端口
     "port": 9333,
+
+    # api port
+    # api端口
+    "api_port": 8000,
     
     # Chat Mode Configuration:
     # True: Force Temporary Chat (temp-chat-on) + Refresh before every chat
@@ -77,6 +81,7 @@ current_config = load_or_create_config()
 USER_DATA_PATH = current_config["user_data_path"]
 TARGET_URL = current_config["target_url"]
 PORT = current_config["port"]
+API_PORT = current_config["api_port"]
 USE_TEMPORARY_CHAT = current_config["use_temporary_chat"]
 
 browser_lock = Lock()
@@ -560,4 +565,4 @@ if __name__ == "__main__":
     import uvicorn
     # Start the server with the configured port
     # 使用配置的端口启动服务器
-    uvicorn.run(app, host="0.0.0.0", port=PORT)
+    uvicorn.run(app, host="0.0.0.0", port=API_PORT)
