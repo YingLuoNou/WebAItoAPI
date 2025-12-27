@@ -30,7 +30,7 @@
 </details>  
 
 ---  
-## 🇨🇳 中文版 (Chinese)
+## 中文版 (Chinese)
 
 ### 项目简介
 **WebAItoAPI** 是一个基于 Python 的轻量级中间件，利用 **DrissionPage** 自动化技术将网页版 AI（目前仅支持 Google Gemini）封装为标准的 API 接口，并通过 **FastAPI** 对外提供服务。
