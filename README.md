@@ -71,7 +71,7 @@ python main.py
 ```json
 {
     "user_data_path": "C:\\path\\to\\ChromeBotData",  // 浏览器用户数据存储路径 (Cookies, 登录状态等)
-    "target_url": "[https://gemini.google.com/app](https://gemini.google.com/app)",    // 目标 AI 服务地址
+    "target_url": "https://gemini.google.com/app",    // 目标 AI 服务地址
     "port": 9333,                                     // 浏览器调试端口
     "api_port": 8000,                                 // api端口
     "use_temporary_chat": true                        // 聊天模式开关
