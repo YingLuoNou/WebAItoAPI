@@ -78,7 +78,7 @@ This project manages configuration via `config.json`. Upon the first run, the sy
 ```json
 {
     "user_data_path": "C:\\path\\to\\ChromeBotData",  // Path to store browser user data (Cookies, login sessions, etc.)
-    "target_url": "[https://gemini.google.com/app](https://gemini.google.com/app)",    // Target AI service URL
+    "target_url": "https://gemini.google.com/app",    // Target AI service URL
     "port": 9333,                                     // Browser debugging port
     "api_port": 8000,                                 // API port
     "use_temporary_chat": true                        // Chat mode toggle
