@@ -1,3 +1,5 @@
+
+
 # WebAItoAPI
 [Read this in English](./readmeEN.md)
 
@@ -80,6 +82,7 @@ python main.py
 字段详解：
 - user_data_path: 存放 Chrome 用户数据的文件夹路径。保留此文件夹可以保持您的登录状态，避免每次重启都需要重新扫码登录。
 - port: DrissionPage 控制浏览器使用的本地端口号，默认 9333。
+- api_port: FastAPI 服务监听端口，默认 8000。
 - use_temporary_chat:
   - true (默认): 临时对话模式。每次请求都会刷新页面并开启新对话，不保留历史记录，适合 API 调用。
   - false: 标准对话模式。保留网页侧的历史记录，仅在页面出错时刷新。
@@ -118,4 +121,3 @@ payload = {
 response = requests.post(url, json=payload, headers=headers)
 print(response.json()["choices"][0]["message"]["content"])
 ```
-
